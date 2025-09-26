@@ -55,7 +55,7 @@ function checkAnswer(currentLevel){
     audio.play();
     $("body").addClass("game-over");
     setTimeout(function(){$("body").removeClass("game-over");},200);
-    $("h1").text("Game Over, Press Any Key to Restart , Highest level is : Level "+ level");
+    $("h1").text("Game Over, Press Any Key to Restart , Highest level is : Level "+ level);
     startOver();
   }
 }
